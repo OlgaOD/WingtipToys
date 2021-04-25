@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html class="js no-flexbox flexbox-legacy canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" lang="en">
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <meta charset="utf-8">
+    <title>Cars - Wingtip Toys</title>
+    <link href="Assets/Site.css" rel="stylesheet">
+</head>
+<body>
+<form action="Cars" id="ctl01" method="post" name="ctl01">
+    <header>
+        <div class="content-wrapper">
+            <div class="float-left">
+                <p class="site-title">
+                    <a href="/" id="A2">
+                        <img id="Logo" src="Assets/logo.jpg" style="border-style: None;">
+                    </a>
+                </p>
+            </div>
+        </div>
+    </header>
+    @RenderBody()
+    <footer>
+        <div class="content-wrapper">
+            <div class="float-left">
+                <p>OrderDynamics Coding Exercise</p>
+            </div>
+        </div>
+    </footer>
+</form>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
+@RenderSection("Scripts", false)
+</body>
+</html>
